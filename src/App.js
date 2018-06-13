@@ -14,7 +14,7 @@ class App extends Component {
 
     
     
-
+<div>
 
  
   <a-scene vr-mode-ui="enabled: false">
@@ -24,7 +24,7 @@ class App extends Component {
     
     <a-entity camera="fov: 50; zoom: 1;" position="-3 3 5" orbit-controls="invertZoom: true; autoRotate: false; target: #target; enableDamping: true; dampingFactor: 0.2;minDistance:4;maxDistance:20;maxPolarAngle:1.8"></a-entity>
   </a-scene>
-
+</div>
 
   
    /*   <a-entity io3d-wall="l:4;"></a-entity>
