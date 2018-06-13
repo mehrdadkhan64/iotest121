@@ -1,29 +1,36 @@
 import React, { Component } from 'react';
 import { Entity, Scene } from 'aframe-react';
-import  '@ajwest/aframe';
-import io3d from '3dio';
-import 'aframe-animation-component';
-import 'react';
-import 'react-dom';
-import '3dio';
 
 import './face-notifications';
-<io3d-app id="default_setup" scene-id="62cb3510-6708-4f62-94c3-f9936db7e20b"></io3d-app>
 
 class App extends Component {
   render() {
     return (
 
     <Scene> 
-      <Entity>
-      <a-sky src="https://storage.3d.io/535e624259ee6b0200000484/2017-08-08_15-19-35_C6qRcB/empire_low.jpg" rotation="0 290 0"></a-sky>
-      </Entity>
-      <Entity position="-6.080855307214579 0 0" rotation="0 90 0" io3d-uuid="62cb3510-6708-4f62-94c3-f9936db7e20b" class="io3d-scene">
-        <Entity position="0 0 0" rotation="0 0 0" io3d-uuid="3e7b7c02-9332-4cf7-bb03-fcc38defa8fd">
-          <Entity io3d-data3d="key: /535e624259ee6b0200000484/bake/2017-06-30_11-05-49_P144IW/regular/lighting.gz.data3d.buffer; lightMapIntensity: 1.2; lightMapExposure: 0.7" shadow="cast: false; receive: true"></Entity>
-          <Entity io3d-furniture="id: dfbf1720-51f5-4de2-8661-fdb657d17e63" shadow="cast: true; receive: false" position="-3.17 0 0.5" rotation="0 90 0" io3d-uuid="a8dcfde7-16f5-4fd0-a2c4-bfc4a040fed4"></Entity>
+    
+        <Entity primitive="a-plane" src="#groundTexture" rotation="-90 0 0" height="100" width="100"/>
+        <Entity primitive="a-light" type="ambient" color="#445451"/>
+        <Entity primitive="a-light" type="point" intensity="2" position="2 4 4"/>
+        <Entity primitive="a-sky" height="2048" radius="30" src="#skyTexture" theta-length="90" width="2048"/>
+        <Entity particle-system={{preset: 'snow', particleCount: 2000}}/>
+        <Entity text={{value: 'Hello, A-Frame React!', align: 'center'}} position={{x: 0, y: 2, z: -1}}/>
+
+        <Entity id="box"
+          geometry={{primitive: 'box'}}
+          material={{color: this.state.color, opacity: 0.6}}
+          animation__rotate={{property: 'rotation', dur: 2000, loop: true, to: '360 360 360'}}
+          animation__scale={{property: 'scale', dir: 'alternate', dur: 100, loop: true, to: '1.1 1.1 1.1'}}
+          position={{x: 0, y: 1, z: -3}}
+          events={{click: this.changeColor.bind(this)}}>
+          <Entity animation__scale={{property: 'scale', dir: 'alternate', dur: 100, loop: true, to: '2 2 2'}}
+                  geometry={{primitive: 'box', depth: 0.2, height: 0.2, width: 0.2}}
+                  material={{color: '#24CAFF'}}/>
         </Entity>
-      </Entity>
+
+        <Entity primitive="a-camera">
+          <Entity primitive="a-cursor" animation__click={{property: 'scale', startEvents: 'click', from: '0.1 0.1 0.1', to: '1 1 1', dur: 150}}/>
+        </Entity>
       
     </Scene>
   
