@@ -4,12 +4,6 @@ import { Entity, Scene } from 'aframe-react';
 
 import './face-notifications';
 
-class App extends Component {
-  render() {
-    return (
-
-    
-    
 <html>
   <head>
     <title>Default setup</title>
@@ -22,8 +16,7 @@ class App extends Component {
     <script src="https://unpkg.com/aframe-animation-component@3.2.5/dist/aframe-animation-component.min.js"></script>
   </head>
   <body>
-  
-    <io3d-app id="default_setup" scene-id="62cb3510-6708-4f62-94c3-f9936db7e20b"></io3d-app>
+       <io3d-app id="default_setup" scene-id="62cb3510-6708-4f62-94c3-f9936db7e20b"></io3d-app>
     
     <div id="custom-logo">
       <a href="https://3d.io" target="_blank">
@@ -58,7 +51,20 @@ class App extends Component {
         </div>
       </div>
     </div>
-  <div>
+  
+                </body>
+</html>
+
+
+class App extends Component {
+  render() {
+    return (
+
+    
+    
+<div>
+  
+   
     <Scene io3d-lighting="intensity:0.9">
       <a-entity camera="" tour="autoStart: false" wasd-controls="" look-controls="" position="-2.073 1.6 -1.474" rotation="-2.063 203.308 0">
         <a-entity tour-waypoint="Top View" io3d-uuid="add7b140-7563-463a-b324-75e2b460e915" position="-7.959815433483447 22.172638840745442 1.675735956699384" rotation="-89.9 450 0"></a-entity>
@@ -134,9 +140,7 @@ class App extends Component {
       </a-entity>
     </Scene>
       </div>
-  </body>
-</html>
-
+ 
     
   
     );
