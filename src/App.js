@@ -17,10 +17,10 @@ class App extends Component {
 <div>
 
  
-  <a-scene vr-mode-ui="enabled: false">
+  <a-scene>
   
-  
-    
+  <a-sky src="https://storage.3d.io/535e624259ee6b0200000484/2017-08-08_15-19-35_C6qRcB/empire_low.jpg" rotation="0 290 0"></a-sky>
+    <a-entity position="-6.080855307214579 0 0" rotation="0 90 0" io3d-uuid="62cb3510-6708-4f62-94c3-f9936db7e20b" class="io3d-scene">
     
     <a-entity camera="fov: 50; zoom: 1;" position="-3 3 5" orbit-controls="invertZoom: true; autoRotate: false; target: #target; enableDamping: true; dampingFactor: 0.2;minDistance:4;maxDistance:20;maxPolarAngle:1.8"></a-entity>
   </a-scene>
