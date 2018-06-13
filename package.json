@@ -17,8 +17,7 @@
     "react": "^15.4.2",
 		"react-dom": "^15.4.2",
 		"react-scripts": "0.9.5",
-		"aframe-react": "^4.0.2",
-		"aframe": "^0.5.0"
+		"aframe-react": "^4.0.2"
   },
   "engines": {
     "node": "8.x"
