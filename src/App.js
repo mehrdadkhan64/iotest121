@@ -66,8 +66,19 @@ class App extends Component {
     
     
 
+
+ 
+  <a-scene vr-mode-ui="enabled: false" io3d-lighting>
   
-   
+    <a-entity io3d-wall="l:4;"></a-entity>
+    
+    <a-entity id="target" position="2 1 0"></a-entity>
+    <a-entity camera="fov: 50; zoom: 1;" position="-3 3 5" orbit-controls="invertZoom: true; autoRotate: false; target: #target; enableDamping: true; dampingFactor: 0.2;minDistance:4;maxDistance:20;maxPolarAngle:1.8"></a-entity>
+  </a-scene>
+
+
+  
+   /*
     <a-scene io3d-lighting="intensity:0.9">
       <a-entity camera="" tour="autoStart: false" wasd-controls="" look-controls="" position="-2.073 1.6 -1.474" rotation="-2.063 203.308 0">
         <a-entity tour-waypoint="Top View" io3d-uuid="add7b140-7563-463a-b324-75e2b460e915" position="-7.959815433483447 22.172638840745442 1.675735956699384" rotation="-89.9 450 0"></a-entity>
@@ -144,7 +155,7 @@ class App extends Component {
     </a-scene>
     
     
-  
+  */
     );
   }
 }
