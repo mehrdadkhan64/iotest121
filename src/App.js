@@ -20,16 +20,7 @@ class App extends Component {
     
       
     <Scene> // io3d-lighting="intensity:0.9">
-      <a-entity camera="" tour="autoStart: false" wasd-controls="" look-controls="" position="-2.073 1.6 -1.474" rotation="-2.063 203.308 0">
-        <a-entity tour-waypoint="Top View" io3d-uuid="add7b140-7563-463a-b324-75e2b460e915" position="-7.959815433483447 22.172638840745442 1.675735956699384" rotation="-89.9 450 0"></a-entity>
-        <a-entity tour-waypoint="Living" io3d-uuid="486a6760-e8d1-456d-a2d0-5358d65b2ef1" position="1.1168750348397785 1.037108274040117 1.7797448740972899" rotation="0 412.98472385428914 0"></a-entity>
-        <a-entity tour-waypoint="Kitchen" io3d-uuid="4a0f17c1-fcde-4706-9188-48ddeb808927" position="-0.4316313757947364 1.37 0.10205065263211961" rotation="0 491.46180963572306 0"></a-entity>
-        <a-entity tour-waypoint="Dining" io3d-uuid="5d76c74b-a2b5-4ddf-a6e9-a6fe009377b7" position="-1.0699430785395438 8 -3.5236261145326577" rotation="-38.48648648648648 539.873168157716 0"></a-entity>
-        <a-entity tour-waypoint="Bedroom" io3d-uuid="4d6fec29-1467-40be-8f91-5435f0317072" position="-9.650512503727434 8 2.1338268605968826" rotation="-59.152761457109314 594.7591069330199 0"></a-entity>
-        <a-entity tour-waypoint="Bedroom" io3d-uuid="3851ec4b-53c0-47d4-afc2-3d646043eb5d" position="-9.639031885443684 8 5.539305773258945" rotation="-56.77438307873098 400.8960173400832 0"></a-entity>
-        <a-entity tour-waypoint="Master Bedroom" io3d-uuid="97eabbe1-578a-48ee-a40f-60af0187f2b1" position="-13.334875006116892 8 -1.701906768812833" rotation="-59.08108108108104 494.6322427235562 0"></a-entity>
-        <a-entity tour-waypoint="Top View" io3d-uuid="fe33bb66-b1fe-4d13-9904-2e98fc05a525" position="-7.959815433483447 22.172638840745442 1.675735956699384" rotation="-89.9 450 0"></a-entity>
-      </a-entity>
+      
       <a-sky src="https://storage.3d.io/535e624259ee6b0200000484/2017-08-08_15-19-35_C6qRcB/empire_low.jpg" rotation="0 290 0"></a-sky>
       <a-entity position="-6.080855307214579 0 0" rotation="0 90 0" io3d-uuid="62cb3510-6708-4f62-94c3-f9936db7e20b" class="io3d-scene">
         <a-entity position="0 0 0" rotation="0 0 0" io3d-uuid="3e7b7c02-9332-4cf7-bb03-fcc38defa8fd">
