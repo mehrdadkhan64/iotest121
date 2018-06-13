@@ -8,7 +8,7 @@ class App extends Component {
   render() {
     return (
 
-    <div id="root">
+    
     
 <html>
   <head>
@@ -58,7 +58,7 @@ class App extends Component {
         </div>
       </div>
     </div>
-  
+  <div>
     <a-scene io3d-lighting="intensity:0.9">
       <a-entity camera="" tour="autoStart: false" wasd-controls="" look-controls="" position="-2.073 1.6 -1.474" rotation="-2.063 203.308 0">
         <a-entity tour-waypoint="Top View" io3d-uuid="add7b140-7563-463a-b324-75e2b460e915" position="-7.959815433483447 22.172638840745442 1.675735956699384" rotation="-89.9 450 0"></a-entity>
@@ -133,10 +133,11 @@ class App extends Component {
         </a-entity>
       </a-entity>
     </a-scene>
+      </div>
   </body>
 </html>
 
-    </div>
+    
   
     );
   }
