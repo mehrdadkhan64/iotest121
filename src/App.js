@@ -59,7 +59,7 @@ class App extends Component {
       </div>
     </div>
   <div>
-    <a-scene io3d-lighting="intensity:0.9">
+    <Scene io3d-lighting="intensity:0.9">
       <a-entity camera="" tour="autoStart: false" wasd-controls="" look-controls="" position="-2.073 1.6 -1.474" rotation="-2.063 203.308 0">
         <a-entity tour-waypoint="Top View" io3d-uuid="add7b140-7563-463a-b324-75e2b460e915" position="-7.959815433483447 22.172638840745442 1.675735956699384" rotation="-89.9 450 0"></a-entity>
         <a-entity tour-waypoint="Living" io3d-uuid="486a6760-e8d1-456d-a2d0-5358d65b2ef1" position="1.1168750348397785 1.037108274040117 1.7797448740972899" rotation="0 412.98472385428914 0"></a-entity>
@@ -132,7 +132,7 @@ class App extends Component {
           <a-entity io3d-furniture="id: dfbf1720-51f5-4de2-8661-fdb657d17e63" shadow="cast: true; receive: false" position="-3.17 0 0.5" rotation="0 90 0" io3d-uuid="a8dcfde7-16f5-4fd0-a2c4-bfc4a040fed4"></a-entity>
         </a-entity>
       </a-entity>
-    </a-scene>
+    </Scene>
       </div>
   </body>
 </html>
