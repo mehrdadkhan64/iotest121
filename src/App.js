@@ -7,55 +7,6 @@ import io3d from '3dio';
 
 import './face-notifications';
 
-<html>
-  <head>
-    <title>Default setup</title>
-    <meta name="description" content="3d.io residential interior scene with dynamic lighting and realtime shadows"/>
-    
-    //<script src="https://aframe.io/releases/0.7.1/aframe.min.js"></script>
-  
-    //<script src="https://3d.io/releases/3dio-js/1.1.x/3dio.min.js"></script>
- //   <link href="https://storage-nocdn.3d.io/app-creator-templates/default.css" rel="stylesheet"/>
-   // <script src="https://unpkg.com/aframe-animation-component@3.2.5/dist/aframe-animation-component.min.js"></script>
-  
-       <io3d-app id="default_setup" scene-id="62cb3510-6708-4f62-94c3-f9936db7e20b"></io3d-app>
-    
-    <div id="custom-logo">
-      <a href="https://3d.io" target="_blank">
-        <img src="https://archilogic-com.github.io/ui-style-guide/3d-io-logo/3d-io-logo-small.svg"/>
-      </a>
-    </div>
-    <div class="camera-controls">
-      <div class="waypoints">
-        <button class="btn-waypoint" onclick="document.querySelector('[camera]').components['tour'].goTo(this.dataset.waypointId)" data-waypoint-id="add7b140-7563-463a-b324-75e2b460e915">Top View</button>
-        <button class="btn-waypoint" onclick="document.querySelector('[camera]').components['tour'].goTo(this.dataset.waypointId)" data-waypoint-id="486a6760-e8d1-456d-a2d0-5358d65b2ef1">Living</button>
-        <button class="btn-waypoint" onclick="document.querySelector('[camera]').components['tour'].goTo(this.dataset.waypointId)" data-waypoint-id="4a0f17c1-fcde-4706-9188-48ddeb808927">Kitchen</button>
-        <button class="btn-waypoint" onclick="document.querySelector('[camera]').components['tour'].goTo(this.dataset.waypointId)" data-waypoint-id="5d76c74b-a2b5-4ddf-a6e9-a6fe009377b7">Dining</button>
-        <button class="btn-waypoint" onclick="document.querySelector('[camera]').components['tour'].goTo(this.dataset.waypointId)" data-waypoint-id="4d6fec29-1467-40be-8f91-5435f0317072">Bedroom</button>
-        <button class="btn-waypoint" onclick="document.querySelector('[camera]').components['tour'].goTo(this.dataset.waypointId)" data-waypoint-id="3851ec4b-53c0-47d4-afc2-3d646043eb5d">Bedroom</button>
-        <button class="btn-waypoint" onclick="document.querySelector('[camera]').components['tour'].goTo(this.dataset.waypointId)" data-waypoint-id="97eabbe1-578a-48ee-a40f-60af0187f2b1">Master Bedroom</button>
-        <button class="btn-waypoint" onclick="document.querySelector('[camera]').components['tour'].goTo(this.dataset.waypointId)" data-waypoint-id="fe33bb66-b1fe-4d13-9904-2e98fc05a525">Top View</button>
-        <button class="btn-toggle-play"
-                onclick="this.classList.contains('playing') ? document.querySelector('[camera]').components['tour'].pauseTour() : document.querySelector('[camera]').components['tour'].playTour(), this.classList.toggle('playing')">
-        </button>
-      </div>
-      <div class="camera-mode">
-        <div class="btn camera active"
-             onclick="document.querySelector('.waypoints').classList.toggle('hide'), this.classList.toggle('active')">
-        </div>
-        <div class="btn bird"
-             id="btn-bird"
-             onclick="document.querySelector('[camera]').components['tour'].updateViewPoint({position:{y:7}, rotation:{x:-60}}), document.querySelector('#btn-person').classList.remove('active'), this.classList.add('active')">
-        </div>
-        <div class="btn person active"
-             id="btn-person"
-             onclick="document.querySelector('[camera]').components['tour'].updateViewPoint({position:{y:1.6}, rotation:{x:0}}), document.querySelector('#btn-bird').classList.remove('active'), this.classList.add('active')">
-        </div>
-      </div>
-    </div>
-  
-</head>
-  <body>
 
 class App extends Component {
   render() {
@@ -66,7 +17,7 @@ class App extends Component {
 
 
  
-  <a-scene vr-mode-ui="enabled: false" io3d-lighting>
+  <a-scene vr-mode-ui="enabled: false">
   
   
     
@@ -158,6 +109,5 @@ class App extends Component {
     );
   }
 }
-</body>
-</html>
+
 export default App;
