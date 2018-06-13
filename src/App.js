@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 //import { Entity, Scene } from 'aframe-react';
-import  '@ajwest/aframe';
+//import  '@ajwest/aframe';
 import io3d from '3dio';
-import 'react';
-import 'react-dom';
+//import 'react';
+//import 'react-dom';
 
 import './face-notifications';
 
@@ -15,12 +15,12 @@ class App extends Component {
    <html>
   <head>
     <title>Default setup</title>
-    <meta name="description" content="3d.io residential interior scene with dynamic lighting and realtime shadows">
+    <meta name="description" content="3d.io residential interior scene with dynamic lighting and realtime shadows"></meta>
    
     <script src="https://aframe.io/releases/0.7.1/aframe.min.js"></script>
     
     <script src="https://3d.io/releases/3dio-js/1.1.x/3dio.min.js"></script>
-    <link href="https://storage-nocdn.3d.io/app-creator-templates/default.css" rel="stylesheet">
+    <link href="https://storage-nocdn.3d.io/app-creator-templates/default.css" rel="stylesheet"></link>
     <script src="https://unpkg.com/aframe-animation-component@3.2.5/dist/aframe-animation-component.min.js"></script>
   </head>
   <body>
@@ -29,7 +29,7 @@ class App extends Component {
   
     <div id="custom-logo">
       <a href="https://3d.io" target="_blank">
-        <img src="https://archilogic-com.github.io/ui-style-guide/3d-io-logo/3d-io-logo-small.svg">
+        <img src="https://archilogic-com.github.io/ui-style-guide/3d-io-logo/3d-io-logo-small.svg"></img>
       </a>
     </div>
     <div class="camera-controls">
@@ -60,7 +60,7 @@ class App extends Component {
         </div>
       </div>
     </div>
-    <!-- 3d scene -->
+  
     <a-scene io3d-lighting="intensity:0.9">
       <a-entity camera="" tour="autoStart: false" wasd-controls="" look-controls="" position="-2.073 1.6 -1.474" rotation="-2.063 203.308 0">
         <a-entity tour-waypoint="Top View" io3d-uuid="add7b140-7563-463a-b324-75e2b460e915" position="-7.959815433483447 22.172638840745442 1.675735956699384" rotation="-89.9 450 0"></a-entity>
