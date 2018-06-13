@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Entity, Scene } from 'aframe-react';
+import io3d from '3dio';
 
 
 import './face-notifications';
@@ -62,7 +63,7 @@ class App extends Component {
 
     
     
-<div>
+
   
    
     <Scene io3d-lighting="intensity:0.9">
@@ -139,8 +140,7 @@ class App extends Component {
         </a-entity>
       </a-entity>
     </Scene>
-      </div>
- 
+    
     
   
     );
