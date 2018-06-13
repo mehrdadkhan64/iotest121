@@ -17,7 +17,7 @@ class App extends Component {
           position={{x: 0, y: 0, z: -1}} />
       
        <Entity id="sphere" geometry="primitive: sphere"
-                material="color: #EEEFEF; shader: flat"
+                material="color: #EF2D5E; shader: flat"
                 position="0 0.15 -5"
                 light="type: point; intensity: 5"
                 animation="property: position; easing: easeInOutQuad; dir: alternate; dur: 1000; to: 0 -0.10 -5; loop: true"></Entity>
