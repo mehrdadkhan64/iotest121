@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-//import { Entity, Scene } from 'aframe-react';
-//import  '@ajwest/aframe';
+import { Entity, Scene } from 'aframe-react';
+import  '@ajwest/aframe';
 import io3d from '3dio';
-import 'react-component-animation';
-//import 'react';
-//import 'react-dom';
+import 'aframe-animation-component';
+import 'react';
+import 'react-dom';
+import '3dio';
 
 import './face-notifications';
 
