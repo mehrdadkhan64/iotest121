@@ -15,11 +15,12 @@ class App extends Component {
         <Entity
           geometry={{primitive: 'box'}} material={{color: 'red'}}
           position={{x: 0, y: 0, z: -1}} />
-       <a-entity id="sphere" geometry="primitive: sphere"
-                material="color: #EFEFEF; shader: flat"
+      
+       <Entity id="sphere" geometry="primitive: sphere"
+                material="color: #EEEFEF; shader: flat"
                 position="0 0.15 -5"
                 light="type: point; intensity: 5"
-                animation="property: position; easing: easeInOutQuad; dir: alternate; dur: 1000; to: 0 -0.10 -5; loop: true"></a-entity>
+                animation="property: position; easing: easeInOutQuad; dir: alternate; dur: 1000; to: 0 -0.10 -5; loop: true"></Entity>
       
       </Scene>
     );
