@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react' ;
 import { Entity, Scene } from 'aframe-react';
 import '@ajwest/aframe';
 import io3d from '3dio';
@@ -15,8 +15,8 @@ class App extends Component {
    <html>
     
 <head>
-  <script src="https://aframe.io/releases/0.7.1/aframe.min.js"></script>
-  <script src="https://dist.3d.io/3dio-js/1.1.x/3dio.min.js"></script>
+ // <script src="https://aframe.io/releases/0.7.1/aframe.min.js"></script>
+ // <script src="https://dist.3d.io/3dio-js/1.1.x/3dio.min.js"></script>
 </head>
 <body>
   <a-scene>
