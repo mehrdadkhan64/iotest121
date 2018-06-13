@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 //import { Entity, Scene } from 'aframe-react';
 //import  '@ajwest/aframe';
 import io3d from '3dio';
+import 'react-component-animation';
 //import 'react';
 //import 'react-dom';
 
@@ -17,11 +18,9 @@ class App extends Component {
     <title>Default setup</title>
     <meta name="description" content="3d.io residential interior scene with dynamic lighting and realtime shadows"></meta>
    
-    //<script src="https://aframe.io/releases/0.7.1/aframe.min.js"></script>
-    
-   // <script src="https://3d.io/releases/3dio-js/1.1.x/3dio.min.js"></script>
+   
     <link href="https://storage-nocdn.3d.io/app-creator-templates/default.css" rel="stylesheet"></link>
-    //<script src="https://unpkg.com/aframe-animation-component@3.2.5/dist/aframe-animation-component.min.js"></script>
+    
   </head>
   <body>
    
