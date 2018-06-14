@@ -28,9 +28,15 @@
     "url": "https://glitch.com/edit/#!/hello-express"
   },
   "license": "MIT",
+  
   "keywords": [
     "node",
     "glitch",
     "express"
-  ]
+  ],
+  
+  "scripts": {
+  
+    "postinstall": "node postinstall.js"
+  }
 }
