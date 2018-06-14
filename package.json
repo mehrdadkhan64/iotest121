@@ -17,8 +17,9 @@
     "react-scripts": "0.9.5",
     "aframe-react": "^4.0.2",
     "@ajwest/aframe": "^0.8.2",
-    "3dio": "^1.2.1",
     "aframe-animation-component": "^4.2.0"
+   
+    
   },
   "engines": {
     "node": "8.x"

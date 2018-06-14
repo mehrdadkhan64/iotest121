@@ -1,27 +1,10 @@
 dependencies:
-  3dio: 1.2.1
   '@ajwest/aframe': 0.8.2
-  aframe-animation-component: 4.2.0
   aframe-react: 4.4.0
   react: 15.6.2
   react-dom: 15.6.2
   react-scripts: 0.9.5
 packages:
-  /3dio/1.2.1:
-    dependencies:
-      bluebird: 3.5.1
-      form-data: 2.3.2
-      js-logger: 1.4.1
-      lodash: 4.17.10
-      node-fetch: 2.0.0-alpha.8
-      pako: 1.0.6
-      performance-now: 2.1.0
-      rxjs: 5.5.11
-      three: 0.85.2
-      whatwg-fetch: 2.0.4
-    dev: false
-    resolution:
-      integrity: sha512-kGYR4boxhQg3bOcc8PX22f0iNINL9NFM37UTF3bmiVuiTqOnkMSCvG2h/KO3Be6+o9iqBKOOgt415iBnnhrPBw==
   /@ajwest/aframe/0.8.2:
     dependencies:
       '@ajwest/debug': 2.2.0
@@ -99,12 +82,6 @@ packages:
       node: '>=0.4.0'
     resolution:
       integrity: sha512-zUzo1E5dI2Ey8+82egfnttyMlMZ2y0D8xOCO3PNPPlYXpl8NZvF6Qk9L9BEtJs+43FqEmfBViDqc5d1ckRDguw==
-  /aframe-animation-component/4.2.0:
-    dependencies:
-      animejs: 2.2.0
-    dev: false
-    resolution:
-      integrity: sha512-XkcaGqcEIjUgkL1UoE1GBph8O0Vixkd9K/mlttZzeiCcQQBKq1XN2BVaDlJIs3krhjRL7MhWT/RdLIlh3ki2CQ==
   /aframe-react/4.4.0:
     dev: false
     resolution:
@@ -158,10 +135,6 @@ packages:
     dev: false
     resolution:
       integrity: sha1-wSWlu4JXd4419LT2qpx9D6nkJmU=
-  /animejs/2.2.0:
-    dev: false
-    resolution:
-      integrity: sha1-Ne79/FNbgZScnLBvCz5gwC5v3IA=
   /ansi-escapes/1.4.0:
     dev: false
     engines:
@@ -3779,10 +3752,6 @@ packages:
     dev: false
     resolution:
       integrity: sha512-aUnNwqMOXw3yvErjMPSQu6qIIzUmT1e5KcU1OZxRDU1g/am6mzBvcrmLAYwzmB59BHPrh5/tKaiF4OPhqRWESQ==
-  /js-logger/1.4.1:
-    dev: false
-    resolution:
-      integrity: sha1-8CMNxehOEg8hPW5aa3Z6kT0pAzU=
   /js-tokens/3.0.2:
     dev: false
     resolution:
@@ -4358,12 +4327,6 @@ packages:
     dev: false
     resolution:
       integrity: sha512-NhZ4CsKx7cYm2vSrBAr2PvFOe6sWDf0UYLRqA6svUYg7+/TSfVAu49jYC4BvQ4Sms9SZgdqGBgroqfDhJdTyKQ==
-  /node-fetch/2.0.0-alpha.8:
-    dev: false
-    engines:
-      node: 4.x || >=6.0.0
-    resolution:
-      integrity: sha512-cDokdqn6TD7LNpMqxgPsI1Iqu23sD4ihqbGELFn4YmMvJSiyJcAws2sm0qKo5hIPXwvc7vR2BDPK09UyyLSivw==
   /node-int64/0.4.0:
     dev: false
     resolution:
@@ -4593,10 +4556,6 @@ packages:
     dev: false
     resolution:
       integrity: sha1-8/dSL073gjSNqBYbrZ7P1Rv4OnU=
-  /pako/1.0.6:
-    dev: false
-    resolution:
-      integrity: sha512-lQe48YPsMJAig+yngZ87Lus+NF+3mtu7DVOBu6b/gHO1YpKwIj5AWjZ/TOS7i46HD/UixzWb1zeWDZfGZ3iYcg==
   /param-case/2.1.1:
     dependencies:
       no-case: 2.3.2
@@ -5664,14 +5623,6 @@ packages:
     dev: false
     resolution:
       integrity: sha1-Gc5QLKVyZl87ZHsQk5+X/RYV8QI=
-  /rxjs/5.5.11:
-    dependencies:
-      symbol-observable: 1.0.1
-    dev: false
-    engines:
-      npm: '>=2.0.0'
-    resolution:
-      integrity: sha512-3bjO7UwWfA2CV7lmwYMBzj4fQ6Cq+ftHc2MvUe+WMS7wcdJ1LosDWmdjPQanYp2dBRj572p7PeU81JUxHKOcBA==
   /safe-buffer/5.1.1:
     dev: false
     resolution:
@@ -6082,12 +6033,6 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-n1dyQTlSE1xv779Ar+ak+qiLS7U=
-  /symbol-observable/1.0.1:
-    dev: false
-    engines:
-      node: '>=0.10.0'
-    resolution:
-      integrity: sha1-g0D8RwLDEi310iKI+IKD9RPT/dQ=
   /symbol-tree/3.2.2:
     dev: false
     resolution:
@@ -6141,10 +6086,6 @@ packages:
     dev: false
     resolution:
       integrity: sha1-zyKOeEJ2ZYhLlhpMq+H4XtOfgrE=
-  /three/0.85.2:
-    dev: false
-    resolution:
-      integrity: sha1-iTb4nDZo978S+bCF3fXdQJkW6ic=
   /three/0.92.0:
     dev: false
     resolution:
@@ -6750,9 +6691,7 @@ registry: 'https://registry.npmjs.org/'
 shrinkwrapMinorVersion: 7
 shrinkwrapVersion: 3
 specifiers:
-  3dio: ^1.2.1
   '@ajwest/aframe': ^0.8.2
-  aframe-animation-component: ^4.2.0
   aframe-react: ^4.0.2
   react: ^15.4.2
   react-dom: ^15.4.2
