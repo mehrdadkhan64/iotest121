@@ -19,13 +19,7 @@ class App extends Component {
       <script src="https://aframe.io/releases/0.7.1/aframe.min.js"></script>
   <script src="https://dist.3d.io/3dio-js/1.1.x/3dio.min.js"></script>
        <script src="https://unpkg.com/aframe-animation-component@3.2.5/dist/aframe-animation-component.min.js"></script>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-    <meta name="theme-color" content="#000000"/>
-   
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json"/>
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico"/>
-    
+       
    
     <title>Treasure Hunt</title>
   
