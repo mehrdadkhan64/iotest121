@@ -33,10 +33,6 @@
     "node",
     "glitch",
     "express"
-  ],
+  ]
   
-  "scripts": {
-  
-    "postinstall": "node ./lib/postinstall.js"
-  }
 }
