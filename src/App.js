@@ -1,5 +1,5 @@
-import React, { Component } from 'react' ;
 import { Entity, Scene } from 'aframe-react';
+import React, { Component } from 'react' ;
 //import aframe from '@ajwest/aframe';
 import io3d from 'io3fix';
 import 'aframe-animation-component';

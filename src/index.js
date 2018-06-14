@@ -1,5 +1,5 @@
 import '@ajwest/aframe';
-//import React from 'react';
+import react'
 import ReactDOM from 'react-dom';
 import App from './App';
 
