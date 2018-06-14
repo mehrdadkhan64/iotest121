@@ -1,8 +1,8 @@
-import { Entity, Scene } from 'aframe-react';
+//import { Entity, Scene } from 'aframe-react';
 import React, { Component } from 'react' ;
 //import aframe from '@ajwest/aframe';
-import io3d from 'io3fix';
-import 'aframe-animation-component';
+//import io3d from 'io3fix';
+//import 'aframe-animation-component';
 
 
 
@@ -17,6 +17,9 @@ class App extends Component {
    
 <html lang="en">
   <head>
+      <script src="https://aframe.io/releases/0.7.1/aframe.min.js"></script>
+  <script src="https://dist.3d.io/3dio-js/1.1.x/3dio.min.js"></script>
+      
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <meta name="theme-color" content="#000000"/>
@@ -32,8 +35,8 @@ class App extends Component {
       You need to enable JavaScript to run this app.
     </noscript>
     <div id="root">
-      <Scene>
-        <Entity io3d-data3d="url:https://storage.3d.io/535e624259ee6b0200000484/170725-1421-wujxjb/archilogic_2017-07-25_14-19-02_hn9axa.gz.data3d.buffer"
+      <a-scene>
+        <a-ntity io3d-data3d="url:https://storage.3d.io/535e624259ee6b0200000484/170725-1421-wujxjb/archilogic_2017-07-25_14-19-02_hn9axa.gz.data3d.buffer"
                   position="6.031 0 0.145">
           <a-camera id="camera" position="-6.085 0 0" rotation="0 0 0" wasd-controls="enabled: false">
             <a-entity id="hud"></a-entity>
@@ -58,9 +61,9 @@ class App extends Component {
             <a-entity walking-trail-item position="0.095 0 -4.883"></a-entity>
             <a-entity walking-trail-item position="3.020 0 -4.883"></a-entity>
           </a-entity>
-        </Entity>
+        </a-ntity>
         <a-entity clues-component=""></a-entity>
-      </Scene>
+      </a-scene>
     </div>
     
   </body>
