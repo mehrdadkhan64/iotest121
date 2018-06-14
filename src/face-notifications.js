@@ -1,5 +1,5 @@
 import AFRAME from '@ajwest/aframe';
-import IO3D from '3dio';
+
 AFRAME.registerComponent('face-notifications', {
   schema: {},
   init: function() {

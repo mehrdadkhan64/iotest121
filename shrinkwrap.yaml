@@ -3,6 +3,7 @@ dependencies:
   '@ajwest/aframe': 0.8.2
   aframe-animation-component: 4.2.0
   aframe-react: 4.4.0
+  io3fix: 1.2.1
   react: 15.6.2
   react-dom: 15.6.2
   react-scripts: 0.9.5
@@ -3255,6 +3256,21 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-EEqOSqym09jNFXqO+L+rLXo//bY=
+  /io3fix/1.2.1:
+    dependencies:
+      bluebird: 3.5.1
+      form-data: 2.3.2
+      js-logger: 1.4.1
+      lodash: 4.17.10
+      node-fetch: 2.0.0-alpha.8
+      pako: 1.0.6
+      performance-now: 2.1.0
+      rxjs: 5.5.11
+      three: 0.85.2
+      whatwg-fetch: 2.0.4
+    dev: false
+    resolution:
+      integrity: sha512-nSeF7lqN2nBlEyxFMUSCao1HlhWm+D8IaV3Ug6JAE920vUdOrMu2RCehGaN/I4gV6MG02N0ffQnfaZFX9Affaw==
   /ipaddr.js/1.6.0:
     dev: false
     engines:
@@ -6754,6 +6770,7 @@ specifiers:
   '@ajwest/aframe': ^0.8.2
   aframe-animation-component: ^4.2.0
   aframe-react: ^4.0.2
+  io3fix: ^1.2.1
   react: ^15.4.2
   react-dom: ^15.4.2
   react-scripts: 0.9.5
