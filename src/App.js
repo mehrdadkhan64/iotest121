@@ -22,8 +22,7 @@ class App extends Component {
    
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json"/>
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico"/>
-    <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
-    <script src="https://dist.3d.io/3dio-js/1.x.x/3dio.min.js"></script>
+    
    
     <title>Treasure Hunt</title>
   </head>
