@@ -14,12 +14,11 @@ class App extends Component {
   render() {
     return (
 
-   
-<html lang="en">
-  <head>
+   <div>
+
       <script src="https://aframe.io/releases/0.7.1/aframe.min.js"></script>
   <script src="https://dist.3d.io/3dio-js/1.1.x/3dio.min.js"></script>
-      
+       <script src="https://unpkg.com/aframe-animation-component@3.2.5/dist/aframe-animation-component.min.js"></script>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <meta name="theme-color" content="#000000"/>
@@ -29,12 +28,11 @@ class App extends Component {
     
    
     <title>Treasure Hunt</title>
-  </head>
-  <body>
+  
     <noscript>
       You need to enable JavaScript to run this app.
     </noscript>
-    <div id="root">
+    
       <a-scene>
         <a-ntity io3d-data3d="url:https://storage.3d.io/535e624259ee6b0200000484/170725-1421-wujxjb/archilogic_2017-07-25_14-19-02_hn9axa.gz.data3d.buffer"
                   position="6.031 0 0.145">
@@ -66,8 +64,7 @@ class App extends Component {
       </a-scene>
     </div>
     
-  </body>
-</html>
+ 
     );
   }
 }
