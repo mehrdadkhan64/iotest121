@@ -2,6 +2,7 @@ import React, { Component } from 'react' ;
 import { Entity, Scene } from 'aframe-react';
 import aframe from '@ajwest/aframe';
 import io3d from 'io3fix';
+import 'aframe-animation-component';
 
 
 
@@ -31,7 +32,7 @@ class App extends Component {
       You need to enable JavaScript to run this app.
     </noscript>
     <div id="root">
-      <a-scene>
+      <Scene>
         <a-entity io3d-data3d="url:https://storage.3d.io/535e624259ee6b0200000484/170725-1421-wujxjb/archilogic_2017-07-25_14-19-02_hn9axa.gz.data3d.buffer"
                   position="6.031 0 0.145">
           <a-camera id="camera" position="-6.085 0 0" rotation="0 0 0" wasd-controls="enabled: false">
@@ -59,7 +60,7 @@ class App extends Component {
           </a-entity>
         </a-entity>
         <a-entity clues-component=""></a-entity>
-      </a-scene>
+      </Scene>
     </div>
     
   </body>
