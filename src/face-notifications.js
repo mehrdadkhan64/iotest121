@@ -1,4 +1,4 @@
-import aframe from '@ajwest/aframe';
+import AFRAME from '@ajwest/aframe';
 
 AFRAME.registerComponent('face-notifications', {
   schema: {},
