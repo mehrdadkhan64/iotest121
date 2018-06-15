@@ -14,8 +14,9 @@
   "dependencies": {
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
-    "react-scripts": "0.9.5"
-     },
+    "react-scripts": "0.9.5",
+    "@ajwest/aframe": "^0.8.2"
+  },
   "engines": {
     "node": "8.x"
   },
@@ -23,11 +24,9 @@
     "url": "https://glitch.com/edit/#!/hello-express"
   },
   "license": "MIT",
-  
   "keywords": [
     "node",
     "glitch",
     "express"
   ]
-  
 }
