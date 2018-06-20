@@ -16,10 +16,6 @@ class App extends Component {
 
    <div>
 
-    <script src="https://aframe.io/releases/0.7.1/aframe.min.js"></script>
-    <script src="https://dist.3d.io/3dio-js/1.1.x/3dio.min.js"></script>
-    <script src="https://unpkg.com/aframe-animation-component@3.2.5/dist/aframe-animation-component.min.js"></script>
-      
    
     <title>Treasure Hunt</title>
   
