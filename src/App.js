@@ -13,7 +13,7 @@ import './face-notifications';
 
 
    
-  var Iframe = React.createClass({     
+  var App = React.createClass({     
   render: function() {
     return(         
       <div>          
@@ -23,10 +23,7 @@ import './face-notifications';
   }
 });
 
-ReactDOM.render(
-  <Iframe src="http://plnkr.co/" height="500" width="500"/>,
-  document.getElementById('example')
-);
+
  
   
 
