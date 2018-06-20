@@ -1,4 +1,4 @@
-import AFRAME from '@ajwest/aframe';
+/*import AFRAME from '@ajwest/aframe';
 
 AFRAME.registerComponent('face-notifications', {
   schema: {},
@@ -14,4 +14,4 @@ AFRAME.registerComponent('face-notifications', {
   addNotification: function(notification) {
     this.notifications = this.notificiations.concat(notification);
   }
-});
+});*/
