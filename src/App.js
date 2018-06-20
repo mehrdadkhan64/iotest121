@@ -4,7 +4,7 @@ import React, { Component } from 'react' ;
 //import io3d from 'io3fix';
 //import 'aframe-animation-component';
 
-
+import ReactDOM from 'react-dom';
 
 
 import './face-notifications';
@@ -13,7 +13,7 @@ import './face-notifications';
 
 
    
-  var App = React.createClass({     
+  var Iframe = React.createClass({     
   render: function() {
     return(         
       <div>          
@@ -23,8 +23,9 @@ import './face-notifications';
   }
 });
 
+ReactDOM.render(
+  <Iframe src="http://plnkr.co/" height="500" width="500"/>,
+  document.getElementById('example')
+);
 
- 
-  
-
-export default App;
+export default Iframe;

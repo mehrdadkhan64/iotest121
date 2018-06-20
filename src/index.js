@@ -10,7 +10,7 @@ import App from './App';
 );
   */
 
-ReactDOM.render(
+/*ReactDOM.render(
   <App src="http://plnkr.co/" height="500" width="500"/>,
   document.getElementById('root')
-);
+);*/
