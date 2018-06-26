@@ -18,6 +18,7 @@ import ReactDOM from 'react-dom';
     return(         
       <div>          
        <a-scene>
+      <a-entity> </a-entity>
     </a-scene>
       </div>
     )
@@ -26,7 +27,6 @@ import ReactDOM from 'react-dom';
 
 ReactDOM.render(
   <App/>,
-  document.getElementById('root')
+  document.document.querySelector('#sceneContainer')
 );
-
 //export default Iframe;
