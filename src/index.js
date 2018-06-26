@@ -36,7 +36,7 @@ import {Box, Sphere, Cylinder, Plane, Sky, Text, Scene} from 'react-aframe-ar';
     return (
       <div>          
        <a-scene>
-      <a-entity gltf-model="url(https://cdn.glitch.com/084b0c74-174c-4649-86d2-7db8152333d9%2Fscene.gltf?1530000604454)"></a-entity>
+      <a-entity gltf-model="url(https://cdn.glitch.com/084b0c74-174c-4649-86d2-7db8152333d9%2Fscene.gltf?1530000604454)" animation-mixer></a-entity>
     </a-scene>
       </div>
     )
