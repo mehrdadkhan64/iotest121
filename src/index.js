@@ -36,7 +36,7 @@ import {Box, Sphere, Cylinder, Plane, Sky, Text, Scene} from 'react-aframe-ar';
     return (
       <div>          
        <a-scene>
-    //  <a-entity gltf-model="url(/path/to/tree.gltf)"></a-entity>
+      <a-entity gltf-model="url(C:/Users/yaran/Downloads/scene.gltf)"></a-entity>
     </a-scene>
       </div>
     )
@@ -47,4 +47,3 @@ ReactDOM.render(
   <App/>,
   document.querySelector('#sceneContainer')
 );
-//export default Iframe;
