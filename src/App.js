@@ -3,9 +3,9 @@ import React, { Component } from 'react' ;
 //import aframe from '@ajwest/aframe';
 //import io3d from 'io3fix';
 //import 'aframe-animation-component';
-import {Box, Sphere, Cylinder, Plane, Sky, Text, Scene} from 'react-aframe-ar';
-import ReactDOM from 'react-dom';
 
+import ReactDOM from 'react-dom';
+import {Box, Sphere, Cylinder, Plane, Sky, Text, Scene} from 'react-aframe-ar';
 
 //import './face-notifications';
 
