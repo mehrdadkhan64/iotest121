@@ -29,7 +29,7 @@ import {Box, Sphere, Cylinder, Plane, Sky, Text, Scene} from 'react-aframe-ar';
 
 
 
-
+  // <a-entity gltf-model="url(https://cdn.glitch.com/084b0c74-174c-4649-86d2-7db8152333d9%2Fscene.gltf?1530000604454)" animation-mixer></a-entity>
    
   class App extends React.Component {
   render () {
@@ -38,11 +38,11 @@ import {Box, Sphere, Cylinder, Plane, Sky, Text, Scene} from 'react-aframe-ar';
        <a-scene>
      
        <a-assets>
-    <a-asset-item id="tree" src="/path/to/tree.gltf"></a-asset-item>
+    <a-asset-item id="scene1" src="https://cdn.glitch.com/084b0c74-174c-4649-86d2-7db8152333d9%2Fscene.gltf?1530000604454"></a-asset-item>
   </a-assets>
 
-  <a-entity gltf-model="#tree"></a-entity>
-      // <a-entity gltf-model="url(https://cdn.glitch.com/084b0c74-174c-4649-86d2-7db8152333d9%2Fscene.gltf?1530000604454)" animation-mixer></a-entity>
+  <a-entity gltf-model="#scene1" animation-mixer></a-entity>
+    
     </a-scene>
       </div>
     )
