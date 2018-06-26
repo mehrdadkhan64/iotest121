@@ -41,7 +41,7 @@ import ReactDOM from 'react-dom';
     <a-asset-item id="scene" src="https://cdn.glitch.com/084b0c74-174c-4649-86d2-7db8152333d9%2Fscene.gltf?1530000604454"></a-asset-item>
   </a-assets>
 
-  <a-entity gltf-model="#scene" animation-mixer></a-entity>
+  <a-entity gltf-model-next="#scene" animation-mixer></a-entity>
     
     </a-scene>
       </div>
