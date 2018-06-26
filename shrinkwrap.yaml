@@ -1,6 +1,7 @@
 dependencies:
   '@ajwest/aframe': 0.8.2
   react: 15.6.2
+  react-aframe-ar: 1.18.0
   react-dom: 15.6.2
   react-scripts: 0.9.5
 packages:
@@ -5202,6 +5203,10 @@ packages:
       node: '>= 0.8'
     resolution:
       integrity: sha1-vNYMd9Prk83gBQKVw/N5OJvIj4k=
+  /react-aframe-ar/1.18.0:
+    dev: false
+    resolution:
+      integrity: sha512-NBHMMIct985ccm8rrOfGi1aBaaiwNJZjzEWiivA+gJ+VPZYJ+/3Epfo/l2Ts5fV0qYGnfstxS63TXaC8+uK3AA==
   /react-dev-utils/0.5.2:
     dependencies:
       ansi-html: 0.0.5
@@ -6694,5 +6699,6 @@ shrinkwrapVersion: 3
 specifiers:
   '@ajwest/aframe': ^0.8.2
   react: ^15.4.2
+  react-aframe-ar: ^1.18.0
   react-dom: ^15.4.2
   react-scripts: 0.9.5
