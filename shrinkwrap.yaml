@@ -1,5 +1,6 @@
 dependencies:
   '@ajwest/aframe': 0.8.2
+  aframe-extras: 4.1.2
   babel-polyfill: 6.26.0
   react: 15.6.2
   react-aframe-ar: 1.18.0
@@ -89,6 +90,14 @@ packages:
       node: '>=0.4.0'
     resolution:
       integrity: sha512-d+nbxBUGKg7Arpsvbnlq61mc12ek3EY8EQldM3GPAhWJ1UVxC6TDGbIvUMNU6obBX3i1+ptCIzV4vq0gFPEGVQ==
+  /aframe-extras/4.1.2:
+    dependencies:
+      three-pathfinding: 0.5.5
+    dev: false
+    peerDependencies:
+      aframe: '*'
+    resolution:
+      integrity: sha512-ul9ofwiWb/Z/ap+OWQpi4YEse31BLErpOr7ObxNWPUWR73TqchYMrCyBQsaMgvD9E+qEh8EwYkpaZKPO13fJ+A==
   /ajv-keywords/1.5.1/ajv@4.11.8:
     dependencies:
       ajv: 4.11.8
@@ -6101,6 +6110,10 @@ packages:
     dev: false
     resolution:
       integrity: sha1-zyKOeEJ2ZYhLlhpMq+H4XtOfgrE=
+  /three-pathfinding/0.5.5:
+    dev: false
+    resolution:
+      integrity: sha512-alTrwg2WgQe/x3Vxvj9JceFq/BHehi8e/f1lKEHJ0UY/VbNLeHT68Ne4FIWUq4LujgQ5/9XvpgX1B7SEDuQS5w==
   /three/0.92.0:
     dev: false
     resolution:
@@ -6707,6 +6720,7 @@ shrinkwrapMinorVersion: 7
 shrinkwrapVersion: 3
 specifiers:
   '@ajwest/aframe': ^0.8.2
+  aframe-extras: ^4.1.2
   babel-polyfill: ^6.26.0
   react: ^15.4.2
   react-aframe-ar: ^1.18.0
