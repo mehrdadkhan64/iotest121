@@ -13,18 +13,19 @@ import ReactDOM from 'react-dom';
 
 
    
-  var Iframe = React.createClass({     
+  var App = React.createClass({     
   render: function() {
     return(         
       <div>          
-        <iframe src={this.props.src} height={this.props.height} width={this.props.width}/>         
+       <a-scene>
+    </a-scene>
       </div>
     )
   }
 });
 
 ReactDOM.render(
-  <Iframe src="https://spaces.archilogic.com/3d/meh/7hlh09yw?modelResourceId=b44c35dd-f3f1-43a1-aef2-ab757c66d63f&mode=view&autostart=true&view-menu=none&main-menu=interior&presentation=once" height="500" width="500"/>,
+  <App/>,
   document.getElementById('root')
 );
 
