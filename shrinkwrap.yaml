@@ -1,5 +1,6 @@
 dependencies:
   '@ajwest/aframe': 0.8.2
+  babel-polyfill: 6.26.0
   react: 15.6.2
   react-aframe-ar: 1.18.0
   react-dom: 15.6.2
@@ -890,6 +891,14 @@ packages:
     dev: false
     resolution:
       integrity: sha1-1fr3qleKZbvlkc9e2uBKDGcCB1g=
+  /babel-polyfill/6.26.0:
+    dependencies:
+      babel-runtime: 6.26.0
+      core-js: 2.5.7
+      regenerator-runtime: 0.10.5
+    dev: false
+    resolution:
+      integrity: sha1-N5k3q8Z9eJWXCtxiHyhM2WbPIVM=
   /babel-preset-env/1.2.1:
     dependencies:
       babel-plugin-check-es2015-constants: 6.22.0
@@ -6698,6 +6707,7 @@ shrinkwrapMinorVersion: 7
 shrinkwrapVersion: 3
 specifiers:
   '@ajwest/aframe': ^0.8.2
+  babel-polyfill: ^6.26.0
   react: ^15.4.2
   react-aframe-ar: ^1.18.0
   react-dom: ^15.4.2

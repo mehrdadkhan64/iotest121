@@ -10,7 +10,7 @@ import {Box, Sphere, Cylinder, Plane, Sky, Text, Scene} from 'react-aframe-ar';
 //import './face-notifications';
 
 
-
+/*
 
    
   class App extends React.Component {
@@ -30,3 +30,4 @@ ReactDOM.render(
   document.document.querySelector('#sceneContainer')
 );
 //export default Iframe;
+*/
