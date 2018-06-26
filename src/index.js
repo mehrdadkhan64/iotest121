@@ -29,19 +29,20 @@ import ReactDOM from 'react-dom';
 
 
 
-  // <a-entity gltf-model="url(https://cdn.glitch.com/084b0c74-174c-4649-86d2-7db8152333d9%2Fscene.gltf?1530000604454)" animation-mixer></a-entity>
+  
    
   class App extends React.Component {
   render () {
     return (
       <div>          
        <a-scene>
-     
+   /**  
        <a-assets>
     <a-asset-item id="scene" src="https://cdn.glitch.com/084b0c74-174c-4649-86d2-7db8152333d9%2Fscene.gltf?1530000604454"></a-asset-item>
   </a-assets>
 
-  <a-entity gltf-model-next="#scene" animation-mixer></a-entity>
+  <a-entity gltf-model-next="#scene" animation-mixer></a-entity> **/
+      <a-entity gltf-model="url(https://cdn.glitch.com/084b0c74-174c-4649-86d2-7db8152333d9%2Fscene.gltf?1530000604454)" animation-mixer></a-entity>
     
     </a-scene>
       </div>
