@@ -23,7 +23,7 @@ import React, { Component } from 'react' ;
 //import 'aframe-animation-component';
 
 import ReactDOM from 'react-dom';
-import {Box, Sphere, Cylinder, Plane, Sky, Text, Scene} from 'react-aframe-ar';
+//import {Box, Sphere, Cylinder, Plane, Sky, Text, Scene} from 'react-aframe-ar';
 
 //import './face-notifications';
 
@@ -38,10 +38,10 @@ import {Box, Sphere, Cylinder, Plane, Sky, Text, Scene} from 'react-aframe-ar';
        <a-scene>
      
        <a-assets>
-    <a-asset-item id="scene1" src="https://cdn.glitch.com/084b0c74-174c-4649-86d2-7db8152333d9%2Fscene.gltf?1530000604454"></a-asset-item>
+    <a-asset-item id="scene" src="https://cdn.glitch.com/084b0c74-174c-4649-86d2-7db8152333d9%2Fscene.gltf?1530000604454"></a-asset-item>
   </a-assets>
 
-  <a-entity gltf-model="#scene1" animation-mixer></a-entity>
+  <a-entity gltf-model="#scene" animation-mixer></a-entity>
     
     </a-scene>
       </div>
