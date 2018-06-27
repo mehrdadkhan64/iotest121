@@ -43,7 +43,9 @@ import ReactDOM from 'react-dom';
 
   <a-entity gltf-model-next="#scene" animation-mixer></a-entity> **/
  //     <a-entity gltf-model="url(https://cdn.glitch.com/084b0c74-174c-4649-86d2-7db8152333d9%2Fscene.gltf?1530000604454)" animation-mixer></a-entity>
-     <a-entity gltf-model="url(https://cdn.glitch.com/084b0c74-174c-4649-86d2-7db8152333d9%2Fscene%20(2).gltf?1530111643832)"></a-entity>
+     
+       <a-entity camera="userHeight: 1.6" wasd-controls="acceleration:6;easing:6;" orbit-controls="target:#shelf" position="-2 0 0"></a-entity>
+      <a-entity gltf-model="url(https://cdn.glitch.com/084b0c74-174c-4649-86d2-7db8152333d9%2Fscene%20(2).gltf?1530111643832)"></a-entity>
       
     </a-scene>
       </div>
