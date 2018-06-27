@@ -43,7 +43,7 @@ import ReactDOM from 'react-dom';
 
   <a-entity gltf-model-next="#scene" animation-mixer></a-entity> **/
  //     <a-entity gltf-model="url(https://cdn.glitch.com/084b0c74-174c-4649-86d2-7db8152333d9%2Fscene.gltf?1530000604454)" animation-mixer></a-entity>
-     <a-scene class="fullscreen">
+     <a-scene class="fullscreen" renderer="gammaOutput: true">
       <a-entity camera tour="autoStart: true" wasd-controls look-controls position="-8.63241676763491 1.654736886045699 2.85387460856602" rotation="0 637.1631515151513 0">
         <a-entity tour-waypoint="Top" io3d-uuid="afd09d80-52aa-4653-ada2-7c7a86b77f67" position="-7.062331439827951 11.091384479008408 -0.4470912971178591" rotation="-89 630 0"></a-entity>
         <a-entity tour-waypoint="Perspective" io3d-uuid="f68840e8-8f7e-4b5e-9d34-264774a67460" position="-14.117650973965459 12.388166892583516 -5.631058831124277" rotation="-58.52813852813858 591.6883116883115 0"></a-entity>
