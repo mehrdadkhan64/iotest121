@@ -42,8 +42,9 @@ import ReactDOM from 'react-dom';
   </a-assets>
 
   <a-entity gltf-model-next="#scene" animation-mixer></a-entity> **/
-      <a-entity gltf-model="url(https://cdn.glitch.com/084b0c74-174c-4649-86d2-7db8152333d9%2Fscene.gltf?1530000604454)" animation-mixer></a-entity>
-    
+ //     <a-entity gltf-model="url(https://cdn.glitch.com/084b0c74-174c-4649-86d2-7db8152333d9%2Fscene.gltf?1530000604454)" animation-mixer></a-entity>
+     <a-entity gltf-model="url(https://cdn.glitch.com/084b0c74-174c-4649-86d2-7db8152333d9%2Fscene%20(2).gltf?1530111643832)"></a-entity>
+      
     </a-scene>
       </div>
     )
