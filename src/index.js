@@ -61,7 +61,7 @@ import ReactDOM from 'react-dom';
       <a-entity position="-6.080855307214579 0 0" rotation="0 180 0" io3d-uuid="abe33c4d-03e8-4d04-83d1-ab4e16743036" class="io3d-scene">
         <a-entity position="0 0 0" rotation="0 0 0" io3d-uuid="c4d919b3-7e4e-40b8-bc48-28c0334be4b2">
      
-  <a-entity gltf-model="url("https://cdn.glitch.com/084b0c74-174c-4649-86d2-7db8152333d9%2Fscene%20(2).gltf?1530111643832") shadow="cast: true; receive: true" position="0 0 0" rotation="0 0 0" io3d-uuid="06db5233-8913-4599-9d26-a3a943097acf"></a-entity>
+  <a-entity gltf-model="url(https://cdn.glitch.com/084b0c74-174c-4649-86d2-7db8152333d9%2Fscene%20(2).gltf?1530111643832)" position="0 0 0" rotation="0 0 0"></a-entity>
         </a-entity>
       </a-entity>
           
