@@ -78,7 +78,12 @@ io3d.storage.put("https://cdn.glitch.com/084b0c74-174c-4649-86d2-7db8152333d9%2F
   }
 };
   
-   
+   const sceneId = '5dc58829-ecd3-4b33-bdaf-f798b7edecd4'
+const sceneEl = document.querySelector('a-scene')
+io3d.scene.getAframeElements(sceneId)
+  .then(element => {
+    sceneEl.appendChild(element)
+  })
                                 
 ReactDOM.render(
   <App/>,
