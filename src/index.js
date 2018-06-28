@@ -40,7 +40,7 @@ io3d.storage.put("https://cdn.glitch.com/084b0c74-174c-4649-86d2-7db8152333d9%2F
   render () {
     return (
             
-       
+    <div>   
    /**  
        <a-assets>
     <a-asset-item id="scene" src="https://cdn.glitch.com/084b0c74-174c-4649-86d2-7db8152333d9%2Fscene.gltf?1530000604454"></a-asset-item>
@@ -73,8 +73,17 @@ io3d.storage.put("https://cdn.glitch.com/084b0c74-174c-4649-86d2-7db8152333d9%2F
       </a-scene>
 
  
-      
-     
+      const sceneEl = document.querySelector('a-scene');
+const elements = io3d.scene.getAframeElementsFromSceneStructure(element3d1);
+  
+    // this will give us two elements
+    // The first is the actual scene according to the scene structure hierarchy
+    // The second is the camera with potential waypoints that where defined in the scene structure
+    // you can leverage the waypoints using our A-Frame tour component
+   // elements.forEach((el) => {
+      // add elements to the scene
+      sceneEl.appendChild(elements);
+  </div>   
     )
   }
 };
@@ -4286,7 +4295,7 @@ const element3d ={
   "v": 1,
   "modelDisplayName": "normal sample furnished",
   "modelResourceName": "h4959x0g"
-}
+};
 
 
  /*
@@ -4317,18 +4326,25 @@ io3d.scene.getAframeElements(sceneId)
   })*/
 
 
+const element3d1 = {
+  "type": "interior",
+  "x": 3.4,
+  "y": 0,
+  "z": 1.4,
+  "src": "!3aff54e2-fdff-44a3-9646-f2db1ea3bbfc"
+};
 
- const sceneEl = document.querySelector('a-scene')
-const elements = io3d.scene.getAframeElementsFromSceneStructure(element3d)
+ const sceneEl = document.querySelector('a-scene');
+const elements = io3d.scene.getAframeElementsFromSceneStructure(element3d1);
   
     // this will give us two elements
     // The first is the actual scene according to the scene structure hierarchy
     // The second is the camera with potential waypoints that where defined in the scene structure
     // you can leverage the waypoints using our A-Frame tour component
-    elements.forEach((el) => {
+   // elements.forEach((el) => {
       // add elements to the scene
-      sceneEl.appendChild(el)
-    })
+      sceneEl.appendChild(elements);
+    
   
 
 /*
