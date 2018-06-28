@@ -21,7 +21,7 @@ import React, { Component } from 'react' ;
 //import aframe from '@ajwest/aframe';
 //import io3d from 'io3fix';
 //import 'aframe-animation-component';
-
+import io3d from'3dio';
 import ReactDOM from 'react-dom';
 //import {Box, Sphere, Cylinder, Plane, Sky, Text, Scene} from 'react-aframe-ar';
 
@@ -66,12 +66,16 @@ import ReactDOM from 'react-dom';
       </a-entity>
           
       </a-scene>
-    
-     
+ 
+
     )
   }
 };
-
+  io3d.storage.put(myFile).then(function (535e624259ee6b0200000484) {
+  console.log('the data3d.buffer is now at', 'https://storage.3d.io' + storageKey)
+}
+                                
+                                
 ReactDOM.render(
   <App/>,
   document.querySelector('#sceneContainer')
