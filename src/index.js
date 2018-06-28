@@ -4319,8 +4319,8 @@ io3d.scene.getAframeElements(sceneId)
 
 
  const sceneEl = document.querySelector('a-scene')
-io3d.scene.getAframeElementsFromSceneStructure(element3d)
-  .then(elements => {
+const elements = io3d.scene.getAframeElementsFromSceneStructure(element3d)
+  
     // this will give us two elements
     // The first is the actual scene according to the scene structure hierarchy
     // The second is the camera with potential waypoints that where defined in the scene structure
@@ -4329,7 +4329,7 @@ io3d.scene.getAframeElementsFromSceneStructure(element3d)
       // add elements to the scene
       sceneEl.appendChild(el)
     })
-  })
+  
 
 /*
 const sceneEl = document.querySelector('a-scene')
