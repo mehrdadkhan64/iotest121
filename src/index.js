@@ -76,12 +76,7 @@ io3d.storage.put("https://cdn.glitch.com/084b0c74-174c-4649-86d2-7db8152333d9%2F
       const sceneEl = document.querySelector('a-scene');
 const elements = io3d.scene.getAframeElementsFromSceneStructure(element3d1);
   
-    // this will give us two elements
-    // The first is the actual scene according to the scene structure hierarchy
-    // The second is the camera with potential waypoints that where defined in the scene structure
-    // you can leverage the waypoints using our A-Frame tour component
-   // elements.forEach((el) => {
-      // add elements to the scene
+    
       sceneEl.appendChild(elements);
   </div>   
     )
@@ -4334,7 +4329,7 @@ const element3d1 = {
   "src": "!3aff54e2-fdff-44a3-9646-f2db1ea3bbfc"
 };
 
- const sceneEl = document.querySelector('a-scene');
+/* const sceneEl = document.querySelector('a-scene');
 const elements = io3d.scene.getAframeElementsFromSceneStructure(element3d1);
   
     // this will give us two elements
@@ -4344,7 +4339,7 @@ const elements = io3d.scene.getAframeElementsFromSceneStructure(element3d1);
    // elements.forEach((el) => {
       // add elements to the scene
       sceneEl.appendChild(elements);
-    
+    */
   
 
 /*
