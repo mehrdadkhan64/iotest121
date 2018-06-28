@@ -22,16 +22,16 @@ import React, { Component } from 'react' ;
 //import io3d from 'io3fix';
 //import 'aframe-animation-component';
 import io3d from'3dio';
-var td = io3d;
+var a="535e624259ee6b0200000484";
 import ReactDOM from 'react-dom';
 //import {Box, Sphere, Cylinder, Plane, Sky, Text, Scene} from 'react-aframe-ar';
 
 //import './face-notifications';
 
 
-td.storage.put().then(function (535e624259ee6b0200000484) {
-  console.log('the data3d.buffer is now at', 'https://storage.3d.io' + storageKey)
-}
+io3d.storage.put('./td').then(function (a) {
+  console.log('the data3d.buffer is now at', 'https://storage.3d.io' + a)
+})
   
    
   class App extends React.Component {
