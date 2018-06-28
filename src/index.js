@@ -27,9 +27,10 @@ import ReactDOM from 'react-dom';
 //import {Box, Sphere, Cylinder, Plane, Sky, Text, Scene} from 'react-aframe-ar';
 
 //import './face-notifications';
+var file = new Blob(['Hello World'])
+file.name = 'hello.txt'
 
-
-io3d.storage.put('test').then(function (a) {
+io3d.storage.put(file).then(function (a) {
   console.log('the data3d.buffer is now at', 'https://storage.3d.io' + a)
 })
   
