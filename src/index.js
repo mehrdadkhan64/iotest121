@@ -28,12 +28,12 @@ import ReactDOM from 'react-dom';
 //import './face-notifications';
 
 
-var file = new Blob(['Hello World'])
+/*var file = new Blob(['Hello World'])
 file.name = 'hello.txt'
 
 io3d.storage.put("https://cdn.glitch.com/084b0c74-174c-4649-86d2-7db8152333d9%2Flighting.data3d.buffer?1530159041044").then(function (a) {
   console.log('the data3d.buffer is now at', 'https://storage.3d.io' + a)
-})
+})*/
   
    
   class App extends React.Component {
@@ -49,7 +49,7 @@ io3d.storage.put("https://cdn.glitch.com/084b0c74-174c-4649-86d2-7db8152333d9%2F
   <a-entity gltf-model-next="#scene" animation-mixer></a-entity> **/
  //     <a-entity gltf-model="url(https://cdn.glitch.com/084b0c74-174c-4649-86d2-7db8152333d9%2Fscene.gltf?1530000604454)" animation-mixer></a-entity>
      <a-scene hoo121 class="fullscreen" renderer="gammaOutput: true">
-      <a-entity camera tour="autoStart: true" wasd-controls look-controls position="-8.63241676763491 1.654736886045699 2.85387460856602" rotation="0 637.1631515151513 0">
+     /* <a-entity camera tour="autoStart: true" wasd-controls look-controls position="-8.63241676763491 1.654736886045699 2.85387460856602" rotation="0 637.1631515151513 0">
         <a-entity tour-waypoint="Top" io3d-uuid="afd09d80-52aa-4653-ada2-7c7a86b77f67" position="-7.062331439827951 11.091384479008408 -0.4470912971178591" rotation="-89 630 0"></a-entity>
         <a-entity tour-waypoint="Perspective" io3d-uuid="f68840e8-8f7e-4b5e-9d34-264774a67460" position="-14.117650973965459 12.388166892583516 -5.631058831124277" rotation="-58.52813852813858 591.6883116883115 0"></a-entity>
         <a-entity tour-waypoint="Hallway" io3d-uuid="795faf2a-3d02-4122-84bd-d057462f80da" position="-9.599132436038229 1.4519497089510565 -2.3510238434824586" rotation="0 568.1109610389608 0"></a-entity>
@@ -69,22 +69,58 @@ io3d.storage.put("https://cdn.glitch.com/084b0c74-174c-4649-86d2-7db8152333d9%2F
   <a-entity gltf-model="url(https://cdn.glitch.com/084b0c74-174c-4649-86d2-7db8152333d9%2Fscene%20(2).gltf?1530111643832)" position="0 0 0" rotation="0 0 0"></a-entity>
         </a-entity>
       </a-entity>
-          
+         */ 
       </a-scene>
 
  
-
+      
+     
     )
   }
 };
-  
+  /*
    const sceneId = '5dc58829-ecd3-4b33-bdaf-f798b7edecd4'
 const sceneEl = document.querySelector('a-scene')
 io3d.scene.getAframeElements(sceneId)
   .then(element => {
     sceneEl.appendChild(element)
   })
-                                
+            */
+
+ const sceneEl = document.querySelector('a-scene')
+io3d.scene.getAframeElements(sceneId)
+  .then(elements => {
+    // this will give us two elements
+    // The first is the actual scene according to the scene structure hierarchy
+    // The second is the camera with potential waypoints that where defined in the scene structure
+    // you can leverage the waypoints using our A-Frame tour component
+    elements.forEach((el) => {
+      // add elements to the scene
+      sceneEl.appendChild(el)
+    })
+  })
+
+
+ const sceneEl = document.querySelector('a-scene')
+io3d.scene.getAframeElementsFromSceneStructure(sceneId)
+  .then(elements => {
+    // this will give us two elements
+    // The first is the actual scene according to the scene structure hierarchy
+    // The second is the camera with potential waypoints that where defined in the scene structure
+    // you can leverage the waypoints using our A-Frame tour component
+    elements.forEach((el) => {
+      // add elements to the scene
+      sceneEl.appendChild(el)
+    })
+  })
+
+/*
+const sceneEl = document.querySelector('a-scene')
+
+const element = io3d.scene.getAframeElementsFromSceneStructure(element3d)
+sceneEl.appendChild(element)
+
+*/
 ReactDOM.render(
   <App/>,
   document.querySelector('#sceneContainer')
