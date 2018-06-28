@@ -87,7 +87,7 @@ io3d.scene.getAframeElements(sceneId)
   })
             */
 
- const sceneEl = document.querySelector('a-scene')
+ /*const sceneEl = document.querySelector('a-scene')
 io3d.scene.getAframeElements(sceneId)
   .then(elements => {
     // this will give us two elements
@@ -98,11 +98,10 @@ io3d.scene.getAframeElements(sceneId)
       // add elements to the scene
       sceneEl.appendChild(el)
     })
-  })
-
+  })*/
 
  const sceneEl = document.querySelector('a-scene')
-io3d.scene.getAframeElementsFromSceneStructure(sceneId)
+io3d.scene.getAframeElementsFromSceneStructure('./structure')
   .then(elements => {
     // this will give us two elements
     // The first is the actual scene according to the scene structure hierarchy
@@ -121,7 +120,12 @@ const element = io3d.scene.getAframeElementsFromSceneStructure(element3d)
 sceneEl.appendChild(element)
 
 */
-ReactDOM.render(
+/*ReactDOM.render(
   <App/>,
+  document.querySelector('#sceneContainer')
+);
+*/
+ReactDOM.render(
+  sceneEl,
   document.querySelector('#sceneContainer')
 );
