@@ -78,11 +78,7 @@ io3d.storage.put("https://cdn.glitch.com/084b0c74-174c-4649-86d2-7db8152333d9%2F
   }
 };
   
-    const el = document.querySelector('[hoo121]')
-  const sceneStructure = io3d.scene.getSceneStructureFromAframeElements(el)
-
-  console.log(sceneStructure)
-                             
+   
                                 
 ReactDOM.render(
   <App/>,
