@@ -105,7 +105,7 @@ io3d.scene.normalizeSceneStructure(element3d)
     console.log(result)
   })
 
- const sceneEl = document.querySelector('a-scene')
+ const sceneEl = document.querySelector(element3d)
 io3d.scene.getAframeElementsFromSceneStructure('./structure')
   .then(elements => {
     // this will give us two elements
