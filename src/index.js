@@ -100,13 +100,13 @@ io3d.scene.getAframeElements(sceneId)
     })
   })*/
 
-io3d.scene.normalizeSceneStructure(element3d)
+/*io3d.scene.normalizeSceneStructure(element3d)
   .then(result => {
     console.log(result)
-  })
+  })*/
 
- const sceneEl = document.querySelector(element3d)
-io3d.scene.getAframeElementsFromSceneStructure('./structure')
+ const sceneEl = document.querySelector('a-scene')
+io3d.scene.getAframeElementsFromSceneStructure(element3d)
   .then(elements => {
     // this will give us two elements
     // The first is the actual scene according to the scene structure hierarchy
