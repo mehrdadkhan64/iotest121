@@ -30,7 +30,7 @@ import ReactDOM from 'react-dom';
 var file = new Blob(['Hello World'])
 file.name = 'hello.txt'
 
-io3d.storage.put(file).then(function (a) {
+io3d.storage.put("https://cdn.glitch.com/084b0c74-174c-4649-86d2-7db8152333d9%2Flighting.data3d.buffer?1530159041044").then(function (a) {
   console.log('the data3d.buffer is now at', 'https://storage.3d.io' + a)
 })
   
