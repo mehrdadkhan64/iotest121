@@ -73,11 +73,7 @@ io3d.storage.put("https://cdn.glitch.com/084b0c74-174c-4649-86d2-7db8152333d9%2F
       </a-scene>
 
  
-      const sceneEl = document.querySelector('a-scene');
-const elements = io3d.scene.getAframeElementsFromSceneStructure(element3d1);
-  
-    
-      sceneEl.appendChild(elements);
+     
   </div>   
     )
   }
@@ -4355,7 +4351,17 @@ sceneEl.appendChild(element)
 );
 */
 ReactDOM.render(
-  sceneEl,
+  <App/>,
   document.querySelector('#sceneContainer')
 );
 
+ const sceneEl = document.querySelector('a-scene');
+const elements = io3d.scene.getAframeElementsFromSceneStructure(element3d1);
+  
+    
+      sceneEl.appendChild(elements);
+
+ReactDOM.render(
+  sceneEl,
+  document.querySelector('root')
+);
