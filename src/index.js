@@ -4366,8 +4366,8 @@ const elements = io3d.scene.getAframeElementsFromSceneStructure(element3d1);
   
     
       sceneEl.appendChild(elements);
-/*
+
 ReactDOM.render(
   sceneEl,
   document.querySelector('#root')
-);*/
+);
