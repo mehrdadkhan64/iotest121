@@ -4360,14 +4360,14 @@ ReactDOM.render(
   <App/>,
   document.querySelector('#sceneContainer')
 );
-/*
+
  const sceneEl = document.querySelector('a-scene');
 const elements = io3d.scene.getAframeElementsFromSceneStructure(element3d1);
   
     
       sceneEl.appendChild(elements);
 
-ReactDOM.render(
+/*ReactDOM.render(
   sceneEl,
   document.querySelector('#root')
 );*/
