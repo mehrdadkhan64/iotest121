@@ -22,6 +22,7 @@ import React, { Component } from 'react' ;
 //import io3d from 'io3fix';
 //import 'aframe-animation-component';
 import io3d from'3dio';
+
 var a='/535e624259ee6b0200000484/bake/2017-06-30_11-05-49_P144IW/regular/lighting.gz.data3d.buffer';
 import ReactDOM from 'react-dom';
 //import {Box, Sphere, Cylinder, Plane, Sky, Text, Scene} from 'react-aframe-ar';
