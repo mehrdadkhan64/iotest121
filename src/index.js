@@ -22,7 +22,7 @@ import React, { Component } from 'react' ;
 //import io3d from 'io3fix';
 //import 'aframe-animation-component';
 //import io3d from'3dio';
-//var io3d = require('https://dist.3d.io/3dio-js/1.2.1/3dio.min.js')
+var io3d = require('./3dio.min.js');
 var a='/535e624259ee6b0200000484/bake/2017-06-30_11-05-49_P144IW/regular/lighting.gz.data3d.buffer';
 import ReactDOM from 'react-dom';
 //import {Box, Sphere, Cylinder, Plane, Sky, Text, Scene} from 'react-aframe-ar';
@@ -4363,10 +4363,10 @@ ReactDOM.render(
 );
 
  const sceneEl = document.querySelector('a-scene');
-const elements //= io3d.scene.getAframeElementsFromSceneStructure(element3d1);
-  
+//const elements= io3d.scene.getAframeElementsFromSceneStructure(element3d1);
+  console.log(io3d.runtime.libInfo)
     
-      sceneEl.appendChild(elements);
+      //sceneEl.appendChild(elements);
 
 /*ReactDOM.render(
   sceneEl,
