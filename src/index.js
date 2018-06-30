@@ -29,8 +29,8 @@ import ReactDOM from 'react-dom';
 //import './face-notifications';
  //window.IO3D = io3d;
 //window.io3d=io3d;
-
-
+var io3d;
+<script src="https://dist.3d.io/3dio-js/1.2.1/3dio.min.js"></script> 
 /*var file = new Blob(['Hello World'])
 file.name = 'hello.txt'
 
