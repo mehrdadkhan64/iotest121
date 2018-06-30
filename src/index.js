@@ -4363,10 +4363,10 @@ ReactDOM.render(
 );
 
  const sceneEl = document.querySelector('a-scene');
-const elements= io3d.scene.getAframeElementsFromSceneStructure(element3d1);
+//const elements= io3d.scene.getAframeElementsFromSceneStructure(element3d1);
   console.log(io3d.runtime.libInfo)
     
-      sceneEl.appendChild(elements);
+    //  sceneEl.appendChild(elements);
 
 /*ReactDOM.render(
   sceneEl,
