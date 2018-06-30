@@ -19,7 +19,7 @@
 //import { Entity, Scene } from 'aframe-react';
 import React, { Component } from 'react' ;
 //import aframe from '@ajwest/aframe';
-//import io3d from 'io3fix';
+import io3d from 'io3fix';
 //import 'aframe-animation-component';
 //import io3d from'3dio';
 //var io3d = require('./3dio.min');
@@ -29,8 +29,7 @@ import ReactDOM from 'react-dom';
 //import './face-notifications';
  //window.IO3D = io3d;
 //window.io3d=io3d;
-var io3d;
-<script src="https://dist.3d.io/3dio-js/1.2.1/3dio.min.js"></script> 
+//<script src="https://dist.3d.io/3dio-js/1.2.1/3dio.min.js"></script> 
 /*var file = new Blob(['Hello World'])
 file.name = 'hello.txt'
 
