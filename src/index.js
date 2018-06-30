@@ -27,6 +27,8 @@ var a='/535e624259ee6b0200000484/bake/2017-06-30_11-05-49_P144IW/regular/lightin
 import ReactDOM from 'react-dom';
 //import {Box, Sphere, Cylinder, Plane, Sky, Text, Scene} from 'react-aframe-ar';
 //import './face-notifications';
+ window.IO3D = io3d;
+window.io3d=io3d;
 
 
 /*var file = new Blob(['Hello World'])
@@ -4363,10 +4365,10 @@ ReactDOM.render(
 );
 
  const sceneEl = document.querySelector('a-scene');
-//const elements= io3d.scene.getAframeElementsFromSceneStructure(element3d1);
-  console.log(io3d.runtime.libInfo)
+const elements= io3d.scene.getAframeElementsFromSceneStructure(element3d1);
+  console.log(io3d.runtime.libInfo);
     
-    //  sceneEl.appendChild(elements);
+      sceneEl.appendChild(elements);
 
 /*ReactDOM.render(
   sceneEl,
