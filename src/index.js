@@ -27,7 +27,7 @@ var a='/535e624259ee6b0200000484/bake/2017-06-30_11-05-49_P144IW/regular/lightin
 import ReactDOM from 'react-dom';
 //import {Box, Sphere, Cylinder, Plane, Sky, Text, Scene} from 'react-aframe-ar';
 //import './face-notifications';
- //window.IO3D = io3d;
+ window.IO3D = io3d;
 //window.io3d=io3d;
 //<script src="https://dist.3d.io/3dio-js/1.2.1/3dio.min.js"></script> 
 /*var file = new Blob(['Hello World'])
