@@ -3,6 +3,7 @@ dependencies:
   '@ajwest/aframe': 0.8.2
   aframe-extras: 4.1.2
   babel-polyfill: 6.26.0
+  iconv: 2.3.0
   react: 15.6.2
   react-aframe-ar: 1.18.0
   react-dom: 15.6.2
@@ -3209,6 +3210,15 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha512-neyTUVFtahjf0mB3dZT77u+8O0QB89jFdnBkd5P1JgYPbPaia3gXXOVL2fq8VyU2gMMD7SaN7QukTB/pmXYvDA==
+  /iconv/2.3.0:
+    dependencies:
+      nan: 2.10.0
+    dev: false
+    engines:
+      node: '>=0.8.0'
+    requiresBuild: true
+    resolution:
+      integrity: sha512-eu9senpOZ7wzNweLX09jtrCdmEiie8Z5/iMxdIq3i7tkgg562EwKSU9yjXMz8ncaQ0B+845vbqAz+1kPFXzbtQ==
   /icss-replace-symbols/1.1.0:
     dev: false
     resolution:
@@ -4361,7 +4371,6 @@ packages:
       integrity: sha1-j7+rsKmKJT0xhDMfno3rc3L6xsA=
   /nan/2.10.0:
     dev: false
-    optional: true
     resolution:
       integrity: sha512-bAdJv7fBLhWC+/Bls0Oza+mvTaNQtP+1RyhhhvD95pgUJz6XM5IzgmxOkItJ9tkoCiplvAnXI1tNmmUD/eScyA==
   /natural-compare/1.4.0:
@@ -6832,6 +6841,7 @@ specifiers:
   '@ajwest/aframe': ^0.8.2
   aframe-extras: ^4.1.2
   babel-polyfill: ^6.26.0
+  iconv: ^2.3.0
   react: ^15.4.2
   react-aframe-ar: ^1.18.0
   react-dom: ^15.4.2
