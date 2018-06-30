@@ -20,7 +20,7 @@
     "babel-polyfill": "^6.26.0",
     "aframe-extras": "^4.1.2",
     "3dio": "^1.2.1"
-  },
+  },    
   "engines": {
     "node": "8.x"
   },
