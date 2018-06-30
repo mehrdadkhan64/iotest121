@@ -5,7 +5,7 @@ import React, { Component } from 'react' ;
 //import 'aframe-animation-component';
 
 import ReactDOM from 'react-dom';
-import {Box, Sphere, Cylinder, Plane, Sky, Text, Scene} from 'react-aframe-ar';
+//import {Box, Sphere, Cylinder, Plane, Sky, Text, Scene} from 'react-aframe-ar';
 
 //import './face-notifications';
 
