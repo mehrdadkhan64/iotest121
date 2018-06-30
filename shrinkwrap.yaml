@@ -1,13 +1,30 @@
 dependencies:
+  3dio: 1.2.1
   '@ajwest/aframe': 0.8.2
   aframe-extras: 4.1.2
   babel-polyfill: 6.26.0
+  discord.js: 11.3.2
   io3fix: 1.2.1
   react: 15.6.2
   react-aframe-ar: 1.18.0
   react-dom: 15.6.2
   react-scripts: 0.9.5
 packages:
+  /3dio/1.2.1:
+    dependencies:
+      bluebird: 3.5.1
+      form-data: 2.3.2
+      js-logger: 1.4.1
+      lodash: 4.17.10
+      node-fetch: 2.0.0-alpha.8
+      pako: 1.0.6
+      performance-now: 2.1.0
+      rxjs: 5.5.11
+      three: 0.85.2
+      whatwg-fetch: 2.0.4
+    dev: false
+    resolution:
+      integrity: sha512-kGYR4boxhQg3bOcc8PX22f0iNINL9NFM37UTF3bmiVuiTqOnkMSCvG2h/KO3Be6+o9iqBKOOgt415iBnnhrPBw==
   /@ajwest/aframe/0.8.2:
     dependencies:
       '@ajwest/debug': 2.2.0
@@ -313,6 +330,10 @@ packages:
     dev: false
     resolution:
       integrity: sha1-GdOGodntxufByF04iu28xW0zYC0=
+  /async-limiter/1.0.0:
+    dev: false
+    resolution:
+      integrity: sha512-jp/uFnooOiO+L211eZOoSyzpOITMXx1rBITauYykG3BRYPu8h0UcxsPNB04RR5vo4Tyz3+ay17tR6JVf9qzYWg==
   /async/0.2.10:
     dev: false
     resolution:
@@ -1959,6 +1980,26 @@ packages:
       node: '>=0.3.1'
     resolution:
       integrity: sha512-A46qtFgd+g7pDZinpnwiRJtxbC1hpgf0uzP3iG89scHk0AUC7A1TGxf5OiiOUv/JMZR8GOt8hL900hV0bOy5xA==
+  /discord.js/11.3.2:
+    dependencies:
+      long: 4.0.0
+      prism-media: 0.0.2
+      snekfetch: 3.6.4
+      tweetnacl: 1.0.0
+      ws: 4.1.0
+    dev: false
+    engines:
+      node: '>=6.0.0'
+    peerDependencies:
+      bufferutil: ^3.0.3
+      erlpack: discordapp/erlpack
+      libsodium-wrappers: ^0.7.3
+      node-opus: ^0.2.7
+      opusscript: ^0.0.6
+      sodium: ^2.0.3
+      uws: ^9.14.0
+    resolution:
+      integrity: sha512-Abw9CTMX3Jb47IeRffqx2VNSnXl/OsTdQzhvbw/JnqCyqc2imAocc7pX2HoRmgKd8CgSqsjBFBneusz/E16e6A==
   /doctrine/1.3.0:
     dependencies:
       esutils: 2.0.2
@@ -4145,6 +4186,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-UejweD1pDoXu+AD825lWwp4ZGtSwgnpZxb3JDViD7StjQz+Nb/6l093lx4OQ0foGWNRoc19mWy7BzL+UAK2iVg==
+  /long/4.0.0:
+    dev: false
+    resolution:
+      integrity: sha512-XsP+KhQif4bjX1kbuSiySJFNAehNxgLb6hPRGJ9QsUr8ajHkuXGdrHmFUTUUXhDwVX2R5bY4JNZEwbUiMhV+MA==
   /longest/1.0.1:
     dev: false
     engines:
@@ -5126,6 +5171,10 @@ packages:
     dev: false
     resolution:
       integrity: sha1-+2Wob3p/kZSWPu6RhlwbzxA54oQ=
+  /prism-media/0.0.2:
+    dev: false
+    resolution:
+      integrity: sha512-L6yc8P5NVG35ivzvfI7bcTYzqFV+K8gTfX9YaJbmIFfMXTs71RMnAupvTQPTCteGsiOy9QcNLkQyWjAafY/hCQ==
   /private/0.1.8:
     dev: false
     engines:
@@ -5879,6 +5928,10 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-7b+JA/ZvfOL46v1s7tZeJkyDGzU=
+  /snekfetch/3.6.4:
+    dev: false
+    resolution:
+      integrity: sha512-NjxjITIj04Ffqid5lqr7XdgwM7X61c/Dns073Ly170bPQHLm6jkmelye/eglS++1nfTWktpP6Y2bFXjdPlQqdw==
   /sockjs-client/1.0.1:
     dependencies:
       debug: 2.6.9
@@ -6319,6 +6372,10 @@ packages:
     optional: true
     resolution:
       integrity: sha1-WuaBd/GS1EViadEIr6k/+HQ/T2Q=
+  /tweetnacl/1.0.0:
+    dev: false
+    resolution:
+      integrity: sha1-cT2LgY2kIGh0C/aDhtBHnmb8ins=
   /type-check/0.3.2:
     dependencies:
       prelude-ls: 1.1.2
@@ -6735,6 +6792,13 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-X8A4KOJkzqP+kUVUdvejxWbLB1c=
+  /ws/4.1.0:
+    dependencies:
+      async-limiter: 1.0.0
+      safe-buffer: 5.1.2
+    dev: false
+    resolution:
+      integrity: sha512-ZGh/8kF9rrRNffkLFV4AzhvooEclrOH0xaugmqGsIfFgOE/pIz4fMc4Ef+5HSQqTEug2S9JZIWDR47duDSLfaA==
   /xhr-request/1.1.0:
     dependencies:
       buffer-to-arraybuffer: 0.0.5
@@ -6828,9 +6892,11 @@ registry: 'https://registry.npmjs.org/'
 shrinkwrapMinorVersion: 8
 shrinkwrapVersion: 3
 specifiers:
+  3dio: ^1.2.1
   '@ajwest/aframe': ^0.8.2
   aframe-extras: ^4.1.2
   babel-polyfill: ^6.26.0
+  discord.js: ^11.3.2
   io3fix: ^1.2.1
   react: ^15.4.2
   react-aframe-ar: ^1.18.0

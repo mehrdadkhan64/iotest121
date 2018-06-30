@@ -19,7 +19,9 @@
     "react-aframe-ar": "^1.18.0",
     "babel-polyfill": "^6.26.0",
     "aframe-extras": "^4.1.2",
-    "io3fix": "^1.2.1"
+    "io3fix": "^1.2.1",
+    "3dio": "^1.2.1",
+    "discord.js": "^11.3.2"
   },
   "engines": {
     "node": "8.x"

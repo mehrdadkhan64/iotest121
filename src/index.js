@@ -19,9 +19,9 @@
 //import { Entity, Scene } from 'aframe-react';
 import React, { Component } from 'react' ;
 //import aframe from '@ajwest/aframe';
-import io3d from 'io3fix';
+//import io3d from 'io3fix';
 //import 'aframe-animation-component';
-//import io3d from'3dio';
+import io3d from'3dio';
 //var io3d = require('./3dio.min');
 var a='/535e624259ee6b0200000484/bake/2017-06-30_11-05-49_P144IW/regular/lighting.gz.data3d.buffer';
 import ReactDOM from 'react-dom';
