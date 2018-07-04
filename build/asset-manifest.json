@@ -1,7 +1,7 @@
 {
-  "main.css": "https://github.com/mehrdadkhan64/iotest121/blob/master/build/static/css/main.65027555.css",
-  "main.css.map": "https://github.com/mehrdadkhan64/iotest121/blob/master/build/static/css/main.65027555.css.map",
+  "main.css": "iotest121/build/static/css/main.65027555.css",
+  "main.css.map": "iotest121/build/static/js/main.45df5676.js.map",
   "main.js": "iotest121/build/static/js/main.45df5676.js",
-  "main.js.map": "https://github.com/mehrdadkhan64/iotest121/blob/master/build/static/js/main.45df5676.js.map",
-  "static\\media\\3dio.js.map": "https://github.com/mehrdadkhan64/iotest121/blob/master/build/static/media/3dio.js.637317e6.map"
+  "main.js.map": "iotest121/build/static/css/main.65027555.css.map",
+  "static\\media\\3dio.js.map": "iotest121/build/static/media/3dio.js.637317e6.map"
 }
